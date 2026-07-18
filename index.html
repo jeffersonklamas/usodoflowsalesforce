@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta nema="author" content="Jefferson K Marzani">
 <title>Quando usar cada Flow do Salesforce</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -211,6 +212,20 @@
     margin-top:48px;
     font-family:'IBM Plex Mono',monospace;
   }
+  footer.credit a{
+    color:var(--sf-blue);
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,161,224,0.35);
+    transition:border-color .2s ease, color .2s ease;
+  }
+  footer.credit a:hover{
+    color:var(--amber);
+    border-color:var(--amber);
+  }
+  footer.credit .sep{
+    color:var(--line);
+    margin:0 10px;
+  }
 
   .fade-in{
     opacity:0;
@@ -306,7 +321,7 @@
       <div class="dq"><b>Envolve várias pessoas, várias etapas?</b>Flow Orchestration.</div>
     </div>
   </div>
-  <footer class="credit">flow builder · trigger-first thinking</footer>
+  <footer class="credit">flow builder · trigger-first thinking<span class="sep">·</span><a href="https://www.linkedin.com/in/jeffersonklamasmarzani/" target="_blank" rel="noopener">Jefferson K Marzani no LinkedIn</a></footer>
 </div>
 
 <script>
